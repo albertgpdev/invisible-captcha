@@ -11,10 +11,8 @@ use Illuminate\View\Compilers\BladeCompiler;
 
 class CaptchaTest extends TestCase
 {
-    const PUBLIC_KEY = '6LdljUMUAAAAACNaMBD5ZRqcqSoyBdhE9inyvlD-';
-    const PRIVATE_KEY = '6LdljUMUAAAAAEJVPw8mIHcbRobhtvJ67yAdBNMZ';
-    // const PUBLIC_KEY = 'insert_here_your_public_key';
-    // const PRIVATE_KEY = 'insert_here_your_private_key';
+    const PUBLIC_KEY = 'insert_here_your_public_key';
+    const PRIVATE_KEY = 'insert_here_your_private_key';
 
     protected function setUp()
     {
