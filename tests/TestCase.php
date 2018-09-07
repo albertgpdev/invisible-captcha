@@ -15,15 +15,4 @@ class TestCase extends OrchestraTestCase
     {
         return [InvisibleCaptchaServiceProvider::class];
     }
-    // /**
-    //  * Load package alias
-    //  * @param  \Illuminate\Foundation\Application $app
-    //  * @return array
-    //  */
-    // protected function getPackageAliases($app)
-    // {
-    //     return [
-    //         'MyPackage' => MyPackageFacade::class,
-    //     ];
-    // }
 }
