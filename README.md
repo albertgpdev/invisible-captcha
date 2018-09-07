@@ -41,13 +41,13 @@ Before you render the captcha, please keep those notices in mind:
 ##### Display reCAPTCHA in Your View
 
 ```php
-{!! app('captcha')->render(); !!}
+{!! app('captcha')->getCaptcha(); !!}
 ```
 
 With custom language support:
 
 ```php
-{!! app('captcha')->render('en'); !!}
+{!! app('captcha')->getCaptcha('en'); !!}
 ```
 
 ##### Validation
