@@ -5,7 +5,7 @@ Invisible CAPTCHA
 ## Installation
 
 ```
-composer require albertgpdev/invisible_captcha
+composer require albertgpdev/invisible_captcha --dev
 ```
 
 ## Laravel 5
@@ -34,7 +34,7 @@ INVISIBLE_RECAPTCHA_PRIVATE_KEY=your_private_key
 
 Before you render the captcha, please keep those notices in mind:
 
-* `render()` function needs to be called within a form element.
+* `getCaptcha()` function needs to be called within a form element.
 * You have to ensure the `type` attribute of your submit button has to be `submit`.
 * There can only be one submit button in your form.
 
