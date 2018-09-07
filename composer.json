@@ -1,0 +1,34 @@
+{
+    "name": "albertgpdev/invisible_captcha",
+    "keywords": ["recaptcha", "captcha", "no-captcha","invisible", 
+                 "invisible-recaptcha", "invisible-captcha", "laravel", "laravel5", 
+                 "albertgpdev", "symfony", "php", "php7"],
+    "description": "Invisible Google ReCaptcha provided by Google",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Albert Gonzalez Pons",
+            "email": "albertgp.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : ">=7.0.0",
+        "guzzlehttp/guzzle": "^6.3@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "~5.0",
+        "orchestra/testbench" : "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Albertgpdev\\InvisibleCaptcha\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Albertgpdev\\InvisibleCaptcha\\Test\\": "tests/"
+        }
+    }
+}
