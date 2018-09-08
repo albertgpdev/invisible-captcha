@@ -50,6 +50,14 @@ With custom language support:
 {!! app('captcha')->getCaptcha('en'); !!}
 ```
 
+With custom position:
+
+```php
+{!! app('captcha')->getCaptcha('inline'); !!}
+{!! app('captcha')->getCaptcha('bottomright'); !!}
+{!! app('captcha')->getCaptcha('bottomleft'); !!}
+```
+
 ##### Validation
 
 Add `'g-recaptcha-response' => 'required|captcha'` to rules array.
