@@ -39,12 +39,12 @@ class InvisibleCaptcha {
      * @param  String $language "Defines the language"
      * @return View           "Return rendered view of reCaptcha"
      */
-    public function getCaptcha($language = 'en')
+    public function getCaptcha($language = 'en', $badge="inline")
     {
     	$url = static::API_URI . '?hl=' . $language . '&onload=onLoadCaptcha';
 
 
-        return view('albertgpdev-invisiblecaptcha::captcha')->with(['url' => $url])->render();
+        return view('albertgpdev-invisiblecaptcha::captcha')->with(['url' => $url, 'badge' => $badge])->render();
     }
 
     /**
