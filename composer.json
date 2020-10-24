@@ -1,5 +1,6 @@
 {
     "name": "albertgpdev/invisible_captcha",
+    "version": "1.0.0",
     "keywords": ["recaptcha", "captcha", "no-captcha","invisible", 
                  "invisible-recaptcha", "invisible-captcha", "laravel", "laravel5", 
                  "albertgpdev", "symfony", "php", "php7"],
